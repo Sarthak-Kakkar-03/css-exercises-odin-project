@@ -20,8 +20,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.top-left {
+  display: flex;
+  gap: 20px;
+  flex-grow: 2;
+  flex-basis: 250px;
 }
 
+.header {
+  font-weight: bolder;
+  font-size: 25;
+  text-align: left;
+  flex-grow: 2;
+}
+.text {
+  flex: 1;
+  margin-left: 62px;
+  flex-wrap: wrap;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -54,6 +76,15 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  
+}
+.button-container {
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  margin-left: 60px;
+  margin-top: 10px;
+
 }
 
 button.continue {
